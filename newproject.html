@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working with list</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #2E4053;
+            color: #ffffff;
+            font-size: 25px;
+            text-transform: capitalize;
+        }
+        nav{
+            background-color: #7D3C98;
+        }
+        ul li{
+            display: inline-block;
+            padding: 10px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .child{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>heritage school</header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About Us">About Us</a>
+                    <ul class="child">
+                        <li>About College</li>
+                        <li>About Course</li>
+                        <li>About Fee Structure</li>
+                    </ul></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
